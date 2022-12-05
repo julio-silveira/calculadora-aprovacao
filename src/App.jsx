@@ -61,9 +61,9 @@ function App() {
 
   return (
     <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', minHeight: '100vh'}}>
-     <Typography variant='h4'>Calculadora de média anual e prova final</Typography>
+     <Typography variant='h4'>Calculadora de média anual</Typography>
      <Stack spacing={1} sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '300px'}}>
-     <Typography variant='body1'>Insira as médias nos campos abaixo</Typography>
+     <Typography variant='body1'>Insira as médias nos campos abaixo.</Typography>
      <TextField
         sx={{width: '200px'}}
         onChange={handleChange}
